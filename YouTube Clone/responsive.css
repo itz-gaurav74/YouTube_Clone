@@ -1,0 +1,33 @@
+@media(max-width:912px) {
+    .aside {
+        display: none;
+    }
+
+    /* .search-bar input {
+        width: auto;
+    } */
+  
+    
+    .icons button {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    .search-bar input{
+        width: 100%;
+        border-radius: 20px 0 0 20px;
+    }
+    
+}
+@media screen and (max-width:980px){
+    .icons .info{
+        display: none;
+    }
+}
+@media screen and (max-width:540px){
+.videos{
+    gap: 15px;
+}
+}
